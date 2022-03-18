@@ -1,0 +1,51 @@
+.container {
+
+    display: flex;
+    padding: 0 18px;
+    height: 72px;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    height: 28px;
+    margin-right: 35px;
+}
+
+.login-link {
+    text-decoration: none;
+    padding: 11px 0;
+    box-sizing: border-box;
+    border: 1px solid #2A7AE4;
+    width: 133px;
+    height: 40px;
+    
+}
+
+.login-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A7AE4;
+    text-align: center;
+}
+
+.search {
+    background: transparent;
+    border: none;
+    background-image: url(../img/lupa.svg);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    right: 20px;
+}
+
+.banner {
+
+}
+.banner-image {
+    width: 100%;
+}

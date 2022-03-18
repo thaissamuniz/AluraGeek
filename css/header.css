@@ -1,4 +1,4 @@
-.container {
+.header-container {
 
     display: flex;
     padding: 0 18px;
@@ -41,11 +41,4 @@
     height: 17px;
     position: absolute;
     right: 20px;
-}
-
-.banner {
-
-}
-.banner-image {
-    width: 100%;
 }

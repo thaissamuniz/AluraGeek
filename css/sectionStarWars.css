@@ -1,0 +1,64 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tittle-starWars {
+    padding-top: 16px;
+    font-weight: 700;
+    size: 22px;
+    line-height: 25.83px;
+    width: 102px;
+    height: 26px;
+}
+.seeAll {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    color: #2A7AE4;
+
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px 0px;
+    justify-content: space-between;
+
+}
+.product-img {
+    width: 156px;
+    height: 174px;
+    padding: 16px 0px 16px 0px;
+   
+}
+.product-tittle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.44px;
+    color: #464646;
+    margin: 8px 0px;
+}
+.product-price {
+    width: 156px;
+    height: 19px;
+    top: 206px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin: 8px 0px;
+}
+.seeProduct {
+    height: 16px;
+    top: 233px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.44px;
+    color: #2A7AE4;
+    text-decoration: none;
+    margin: 8px 0px;
+}

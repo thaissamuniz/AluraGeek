@@ -91,7 +91,7 @@
     font-weight: 600;
 }
 .footer-end {
-    width: 100%;
+    width: 360px;
     height: 102px;
     background-color: #FFFFFF;
 }
@@ -103,4 +103,53 @@
     text-align: center;
     padding: 32px 63px 32px 63px;
     
+}
+@media screen and (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        width: 100%;
+        height: 364px;
+        padding: 32px;
+        top: 1498px;
+        justify-content: center;
+        align-items:flex-start
+    }
+    .logo-footer {
+        margin: 16px 0px;
+        width: 176px;
+        height: 50px;
+    }
+    .conteudo {
+        align-items: flex-start;
+        width: 254px;
+        height: 300px;
+        margin: 0px 16px;
+    }
+    .footer-li {
+        text-align: start;
+        margin: 24px 0px;
+    }
+    .talkUs {
+        width: 434px;
+    }
+    .nome {
+        
+    }
+    .footer-end {
+        top: 1862px;
+        width: 768px;
+    }
+    .footer-text {
+        height: 38px;
+        left: 276px;
+        top: 32px;
+        margin: 0px 10px;
+        flex: none;
+    }
+    .secao {
+        width: 434px;
+        height: 229px;
+        left: 270px;
+        margin: 0px 16px;
+    }
 }

@@ -1,19 +1,14 @@
 .footer {
-    display: flex;
     background-color: #EAF2FD;
-    height: 553px;
-    width: 360px;
-    top: 2028px;
-    padding: 16px;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
     color: #464646;
+    box-sizing: border-box;
+    padding: 16px 0;
 }
 .logo-footer {
     width: 176px;
-    height: 50px;
-    left: 76px;
-    margin: 16px 0px;
+    margin: 0 auto;
+    display: block;
 }
 .footer-li {
     font-size: 16px;
@@ -21,12 +16,7 @@
     line-height: 19px;
     text-align: center;
     width: 328px;
-    height: 19px;
-    top: 35px;
-    margin: 16px 0px;
-}
-.form {
-
+    margin-bottom: 16px;
 }
 .talkUs {
     display: block;
@@ -34,15 +24,13 @@
     font-size: 16px;
     line-height: 19px;
     width: 328px;
-    height: 19px;
     margin: 8px 0px;
 }
 .inputandtext {
-    width: 328px;
+    width: 100%;
     border-radius: 4px;
     background-color: #FFFFFF;
-    margin: 8px 0px;
-    gap: 4px;
+    margin-bottom: 8px;
     border-style: hidden;
 
 }
@@ -50,8 +38,8 @@
     height: 56px;
     display: block;
     background-color: #FFFFFF;
-    margin: 8px 0px;
-    width: 328px;
+    margin-bottom: 8px;
+    width: auto;
     border-radius: 4px;
     border-style: none;
     font-size: 12px;
@@ -77,23 +65,19 @@
     font-family: "raleway", sans-serif;
 }
 .footer-button {
-    flex-direction: row;
-    justify-content: center;
+    font-family: 'raleway', sans-serif;
     width: 151px;
     height: 40px;
-    top: 189px;
-    padding: 12px 16px 12px 16px;
-    gap: 10px;
-    margin: 8px 0px;
     background-color: #2A7AE4;
     border-style: none;
     color: #FFFFFF;
     font-weight: 600;
 }
 .footer-end {
-    width: 360px;
+    width: 100%;
     height: 102px;
     background-color: #FFFFFF;
+    box-sizing: border-box;
 }
 .footer-text {
     
@@ -106,50 +90,71 @@
 }
 @media screen and (min-width: 768px) {
     .footer {
-        flex-direction: row;
         width: 100%;
-        height: 364px;
-        padding: 32px;
-        top: 1498px;
-        justify-content: center;
-        align-items:flex-start
+        padding: 32px 0;
     }
+    
     .logo-footer {
-        margin: 16px 0px;
+
         width: 176px;
-        height: 50px;
+        margin: 0;
+    }
+    .footer-cont {
+        display: flex;
+        box-sizing: border-box;
     }
     .conteudo {
         align-items: flex-start;
         width: 254px;
-        height: 300px;
         margin: 0px 16px;
     }
-    .footer-li {
+    .footer-li:not(:last-child) {
         text-align: start;
-        margin: 24px 0px;
+        margin-bottom: 24px;
     }
     .talkUs {
         width: 434px;
     }
-    .nome {
-        
-    }
     .footer-end {
-        top: 1862px;
-        width: 768px;
+        width: 100%;
     }
     .footer-text {
         height: 38px;
-        left: 276px;
-        top: 32px;
-        margin: 0px 10px;
         flex: none;
     }
     .secao {
-        width: 434px;
-        height: 229px;
-        left: 270px;
-        margin: 0px 16px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .footer {
+        flex-direction: row;
+        height: 368px;
+        padding: 64px 152px;
+        justify-content: space-between;
+    }
+    .cont {
+        display: flex;
+        align-items: flex-start;
+    }
+    .logo-footer {
+        margin: 0px 112px;
+    }
+    .footer-end {
+        width: 100%;
+        height: 102px;
+    }
+    .inputandtext {
+        width: 100%;
+    }
+    .nome {
+        width: 100%;
+    }
+    .conteudo {
+        margin: 0px;
+        padding: 0px;
+    }
+    .secao {
+        margin: 0px;
     }
 }

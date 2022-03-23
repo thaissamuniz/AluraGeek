@@ -1,5 +1,6 @@
 .banner {
     position: relative;
+    box-sizing: border-box;
 }
 .banner-image {
     width: 100%;
@@ -9,15 +10,15 @@
     background-size: cover;
 }
 .container {
-    padding-left: 16px;
-    padding-right: 16px;
-    width: auto;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-width: 328px;
 }
 .banner-elements {
     color: #FFFFFF;
     position: absolute;
-    top: 78px;
-    width: 100%;
+    padding-top: 78px;
     padding-bottom: 16px;
 }
 .banner-tittle {
@@ -61,31 +62,60 @@
         padding: 32px;
     }
     .container {
-        padding-left: 32px;
-        padding-right: 32px;
+        max-width: 705px;
     }
     .banner-elements {
         height: 159px;
-        top: 161px;
-        margin: 16px 0px;
+        bottom: 32px;
+        padding-bottom: 0;
     }
     .banner-tittle {
         height: 61px;
         font-size: 52px;
         line-height: 61px;
-        margin: 16px 0px;
+        margin-bottom: 16px;
     }
     .banner-paragraph {
         width: 704px;
         height: 26px;
         font-size: 22px;
         line-height: 26px;
-        margin: 16px 0px;
-        top: 77px;
+        margin-bottom: 16px;
     }
     .console-button {
         padding: 12px 16px;
-        top: 116px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .container {
+        padding: 0px;
+        max-width: 1139px;
+    }
+    .banner-elements {
+        width: 1136px;
+        height: 170px;
+    }
+    .banner-tittle {
+        height: 61px;
+        width: 751px;
+    }
+    .banner-paragraph {
+        width: 751px;
+    }
+    .console-button {
+        width: 130px;
+        height: 51px;
+        padding: 16px;
+        top: 119px;
         margin: 16px 0px;
+    }
+    .console-text {
+        width: 98px;
+        height: 19px;
+        top: 16px;
+        left: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
     }
 }

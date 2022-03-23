@@ -5,11 +5,14 @@
     box-sizing: border-box;
     padding: 16px 0;
 }
+
 .logo-footer {
     width: 176px;
     margin: 0 auto;
     display: block;
+    margin-bottom: 16px;
 }
+
 .footer-li {
     font-size: 16px;
     font-weight: 500;
@@ -18,6 +21,7 @@
     width: 328px;
     margin-bottom: 16px;
 }
+
 .talkUs {
     display: block;
     font-weight: 700;
@@ -26,6 +30,7 @@
     width: 328px;
     margin: 8px 0px;
 }
+
 .inputandtext {
     width: 100%;
     border-radius: 4px;
@@ -34,6 +39,7 @@
     border-style: hidden;
 
 }
+
 .nome {
     height: 56px;
     display: block;
@@ -49,21 +55,40 @@
     padding: 8px 12px;
     box-sizing: border-box;
 }
+
 .input-footer {
     display: block;
     border: none;
     outline: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
 }
+
+
 #textarea {
     height: 82px;
-    color: #A2A2A2;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
     padding: 16px 12px;
     box-sizing: border-box;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;    
+}
+
+#textarea::placeholder {
+    color: #A2A2A2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
     font-family: "raleway", sans-serif;
 }
+
 .footer-button {
     font-family: 'raleway', sans-serif;
     width: 151px;
@@ -73,59 +98,75 @@
     color: #FFFFFF;
     font-weight: 600;
 }
+
 .footer-end {
     width: 100%;
     height: 102px;
     background-color: #FFFFFF;
     box-sizing: border-box;
 }
+
 .footer-text {
-    
+
     font-size: 16px;
     font-weight: 500;
     line-height: 19px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
     padding: 32px 63px 32px 63px;
-    
+    color: #464646;
 }
+
 @media screen and (min-width: 768px) {
     .footer {
         width: 100%;
         padding: 32px 0;
     }
-    
+
     .logo-footer {
 
         width: 176px;
         margin: 0;
+        margin-bottom: 16px;
     }
+
     .footer-cont {
         display: flex;
         box-sizing: border-box;
     }
+
     .conteudo {
         align-items: flex-start;
         width: 254px;
         margin: 0px 16px;
     }
-    .footer-li:not(:last-child) {
+
+    .footer-li {
         text-align: start;
+    }
+
+    .footer-li:not(:last-child) {
         margin-bottom: 24px;
     }
+
     .talkUs {
         width: 434px;
     }
+
     .footer-end {
         width: 100%;
     }
+
     .footer-text {
         height: 38px;
         flex: none;
     }
+
     .secao {
         width: 100%;
     }
 }
+
 @media screen and (min-width: 1440px) {
     .footer {
         flex-direction: row;
@@ -133,27 +174,34 @@
         padding: 64px 152px;
         justify-content: space-between;
     }
+
     .cont {
         display: flex;
         align-items: flex-start;
     }
+
     .logo-footer {
         margin: 0px 112px;
     }
+
     .footer-end {
         width: 100%;
         height: 102px;
     }
+
     .inputandtext {
         width: 100%;
     }
+
     .nome {
         width: 100%;
     }
+
     .conteudo {
         margin: 0px;
         padding: 0px;
     }
+
     .secao {
         margin: 0px;
     }

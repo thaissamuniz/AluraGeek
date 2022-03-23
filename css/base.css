@@ -1,3 +1,24 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-width: 328px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 705px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        padding: 0px;
+        max-width: 1139px;
+    }
+}

@@ -1,3 +1,7 @@
+.header {
+    background-color: #FFFFFF;
+
+}
 .header-container {
     display: flex;
     height: 72px;
@@ -5,6 +9,7 @@
     box-sizing: border-box;
     justify-content: space-between;
     align-items: center;
+
 }
 .header-conf {
     display: flex;

@@ -1,0 +1,21 @@
+.allProducts {
+
+}
+.add-button {
+    font-family: 'raleway', sans-serif;
+    width: 151px;
+    height: 40px;
+    background-color: #2A7AE4;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 16px;
+}
+.reference {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+}

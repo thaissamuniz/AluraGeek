@@ -1,0 +1,148 @@
+{
+  "products": [
+    {
+      "imagem":"./img/produto1.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"oioioiioiii",
+      "categoria":"Star Wars",
+      "id": 1
+    },
+    {
+      "imagem":"./img/produto2.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$60,00",
+      "descricao":"",
+      "categoria": "Star Wars",
+      "id": 2
+    },
+    {
+      "imagem":"./img/produto3.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Star Wars",
+      "id": 3
+    },
+    {
+      "imagem":"./img/produto4.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Star Wars",
+      "id": 4
+    },
+    {
+      "imagem":"./img/produto5.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Star Wars",
+      "id": 5
+    },
+    {
+      "imagem":"./img/produto6.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Star Wars",
+      "id": 6
+    },
+    {
+      "imagem":"./img/console1.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Consoles",
+      "id": 7
+    },
+    {
+      "imagem":"./img/console2.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Consoles",
+      "id": 8
+    },
+    {
+      "imagem":"./img/console3.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Consoles",
+      "id": 9
+    },
+    {
+      "imagem":"./img/console4.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Consoles",
+      "id": 10
+    },
+    {
+      "imagem":"./img/console5.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Consoles",
+      "id": 11
+    },
+    {
+      "imagem":"./img/console6.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Consoles",
+      "id": 12
+    },
+    {
+      "imagem":"./img/diversos1.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Diversos",
+      "id": 13
+    },
+    {
+      "imagem":"./img/diversos2.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Diversos",
+      "id": 14
+    },
+    {
+      "imagem":"./img/diversos3.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Diversos",
+      "id": 15
+    },
+    {
+      "imagem":"./img/diversos4.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Diversos",
+      "id": 16
+    },
+    {
+      "imagem":"./img/diversos5.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Diversos",
+      "id": 17
+    },
+    {
+      "imagem":"./img/diversos6.jpg",
+      "nome":"Produto XYZ",
+      "preco":"R$ 60,00",
+      "descricao":"",
+      "categoria":"Diversos",
+      "id": 18
+    }
+  ]
+}

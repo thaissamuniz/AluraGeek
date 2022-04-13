@@ -54,6 +54,20 @@
     line-height: 16px;
     color: #FFFFFF;
 }
+.error-info {
+    display: none;
+    margin-bottom: 10px;
+    align-items: center;
+
+
+}
+.error-img {
+    width: 15px;
+    margin-right: 4px;
+}
+.error-msg {
+    font-size: 14px;
+}
 
 @media screen and (min-width: 1440px) {
     .section-title {

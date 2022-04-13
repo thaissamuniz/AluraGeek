@@ -1,8 +1,5 @@
 const createNewCard = (imagem, nome, preco, id) => {
-
-    const createNewLi = document.createElement('li')
-
-    const content = `
+ return`
         <li class="product">
         <img class="product-img" src="${imagem}">
         <div>
@@ -10,11 +7,7 @@ const createNewCard = (imagem, nome, preco, id) => {
             <p class="product-price">${preco}</p>
             <a href="product.html?id=${id}" class="seeProduct">Ver produto</a>
         </div>
-    </li>
-    
-    `
-    createNewLi.innerHTML = content;
-    return createNewLi;
+    </li>`
 }
 
 export { createNewCard };

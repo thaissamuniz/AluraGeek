@@ -1,14 +1,19 @@
 import { productsList } from "../../service/produtos.js";
-import { createNewCard } from "./componets/card.js";
+import { groupBy } from "./array.js";
+import { createCardList } from "./componets/cardList.js";
 
-const productsCardEl = document.querySelector('[data-products]');
+const productsCardEl = document.querySelector('[data-cards]');
 
 productsList.allProducts()
     .then(products => {
-        products.forEach(products => {
-            productsCardEl.appendChild(createNewCard(products.imagem, products.nome, products.preco, products.id))
-        });
-    });
+        const productsByCategory = groupBy(products, 'categoria');
+
+        const categories = Object.keys(productsByCategory);
+
+        const cardLists = categories.map(category => createCardList(category, productsByCategory[category]));
+
+        productsCardEl.innerHTML = cardLists;
+    })
 
 // const listGroup = [
 //     { category: "Diversos", items: db.products.filter(product => product.categoria === 'Diversos') },

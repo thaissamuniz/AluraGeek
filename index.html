@@ -81,11 +81,13 @@
                 <form class="form">
                     <label class="nome">
                         Nome
-                        <input class="input-footer" type="text" />
+                        <input class="input-footer" type="text" maxlength="40" />
                     </label>
                     <textarea name="mensagem" id="textarea" class="inputandtext" cols="30" rows="10" required
-                        placeholder="Escreva sua mensagem"></textarea>
-                    <button class="footer-button">Enviar Mensagem</button>
+                        placeholder="Escreva sua mensagem" maxlength="120"></textarea>
+                        <div class="formInf sucessInf"><p>Dados Enviados com Sucesso!</p></div>
+                        <div class="formInf errorInf"><p>Todos os Campos sao Obrigatorios</p></div>
+                    <button type="submit" class="footer-button">Enviar Mensagem</button>
                 </form>
             </section>
         </div>
@@ -99,5 +101,5 @@
     </section>
 </body>
 <script type="module" src="./js/controller/products-controller.js"></script>
-
+<script src="./js/controller/componets/formValidation.js"></script>
 </html>

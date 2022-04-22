@@ -5,12 +5,13 @@ const admEmail = document.querySelector('.email');
 const admPassword = document.querySelector('.password');
 
 const errorMsg = document.querySelector(".error-info")
+
 function showErrorMessage() {
     errorMsg.style.display = "flex";
 }
 
 function hideErrorMessage() {
-    errorMsg.style.display = "none"
+    errorMsg.style.display = "none";
 }
 
 function validateEmail(mail) {

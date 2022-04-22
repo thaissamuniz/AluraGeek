@@ -20,6 +20,7 @@
     text-align: center;
     width: 328px;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 .talkUs {
@@ -87,6 +88,18 @@
     line-height: 20px;
     font-family: "raleway", sans-serif;
 }
+.formInf {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+.sucessInf {
+    display: none;
+    font-weight: bold;
+}
+.errorInf {
+    display: none;
+    color: red;
+}
 
 .footer-button {
     font-family: 'raleway', sans-serif;
@@ -96,6 +109,7 @@
     border-style: none;
     color: #FFFFFF;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .footer-end {
@@ -146,9 +160,6 @@
 
     .footer-li:not(:last-child) {
         margin-bottom: 24px;
-    }
-
-    .talkUs {
     }
 
     .footer-end {

@@ -108,4 +108,13 @@
     .search-desk {
         width: 393px;
     }
+    .items {
+        padding: 0;
+        list-style-type: none;
+        width: 360px;
+    }
+    .itemImg {
+        width: 40px;
+    }
+    
 }

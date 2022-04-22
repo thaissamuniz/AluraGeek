@@ -30,16 +30,10 @@ const productDetail = (id) => {
         return response.json()
     })
 }
-const admLoginList = (email, password) => {
-    return fetch('http://localhost:3000/logins')
-    .then(response => {
-        return response.json()
-    })
-}
 
 export const productsList = {
     allProducts,
     productsByCategory,
     productDetail,
-    admLoginList
+    
 }

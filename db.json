@@ -1,148 +1,495 @@
 {
   "products": [
     {
-      "imagem":"./img/produto1.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"oioioiioiii",
-      "categoria":"Star Wars",
+      "imagem": "./img/produto1.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "oioioiioiii",
+      "categoria": "Star Wars",
       "id": 1
     },
     {
-      "imagem":"./img/produto2.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$60,00",
-      "descricao":"",
+      "imagem": "./img/produto2.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$60,00",
+      "descricao": "",
       "categoria": "Star Wars",
       "id": 2
     },
     {
-      "imagem":"./img/produto3.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Star Wars",
+      "imagem": "./img/produto3.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Star Wars",
       "id": 3
     },
     {
-      "imagem":"./img/produto4.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Star Wars",
+      "imagem": "./img/produto4.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Star Wars",
       "id": 4
     },
     {
-      "imagem":"./img/produto5.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Star Wars",
+      "imagem": "./img/produto5.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Star Wars",
       "id": 5
     },
     {
-      "imagem":"./img/produto6.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Star Wars",
+      "imagem": "./img/produto6.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Star Wars",
       "id": 6
     },
     {
-      "imagem":"./img/console1.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Consoles",
+      "imagem": "./img/console1.jpg",
+      "nome": "Console XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Consoles",
       "id": 7
     },
     {
-      "imagem":"./img/console2.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Consoles",
+      "imagem": "./img/console2.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Consoles",
       "id": 8
     },
     {
-      "imagem":"./img/console3.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Consoles",
+      "imagem": "./img/console3.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Consoles",
       "id": 9
     },
     {
-      "imagem":"./img/console4.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Consoles",
+      "imagem": "./img/console4.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Consoles",
       "id": 10
     },
     {
-      "imagem":"./img/console5.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Consoles",
+      "imagem": "./img/console5.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Consoles",
       "id": 11
     },
     {
-      "imagem":"./img/console6.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Consoles",
+      "imagem": "./img/console6.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Consoles",
       "id": 12
     },
     {
-      "imagem":"./img/diversos1.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Diversos",
+      "imagem": "./img/diversos1.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Diversos",
       "id": 13
     },
     {
-      "imagem":"./img/diversos2.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Diversos",
+      "imagem": "./img/diversos2.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Diversos",
       "id": 14
     },
     {
-      "imagem":"./img/diversos3.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Diversos",
+      "imagem": "./img/diversos3.jpg",
+      "nome": "Diverso XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Diversos",
       "id": 15
     },
     {
-      "imagem":"./img/diversos4.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Diversos",
+      "imagem": "./img/diversos4.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Diversos",
       "id": 16
     },
     {
-      "imagem":"./img/diversos5.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Diversos",
+      "imagem": "./img/diversos5.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Diversos",
       "id": 17
     },
     {
-      "imagem":"./img/diversos6.jpg",
-      "nome":"Produto XYZ",
-      "preco":"R$ 60,00",
-      "descricao":"",
-      "categoria":"Diversos",
+      "imagem": "./img/diversos6.jpg",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "",
+      "categoria": "Diversos",
       "id": 18
+    }
+  ],
+  "login": [
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 1
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "adaa",
+      "id": 2
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "jhjhjg",
+      "id": 3
+    },
+    {
+      "email": "dasdasda@das.com",
+      "password": "adada",
+      "id": 4
+    },
+    {
+      "email": "ddr@ggg.voi",
+      "password": "525",
+      "id": 5
+    },
+    {
+      "email": "ddr@ggg.voi",
+      "password": "525",
+      "id": 6
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 7
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 8
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 9
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 10
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 11
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 12
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 13
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 14
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 15
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 16
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 17
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 18
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 19
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 20
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 21
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 22
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 23
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 24
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 25
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 26
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 27
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 28
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 29
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 30
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 31
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 32
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 33
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 34
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 35
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 36
+    },
+    {
+      "email": "g676d@ndnhd.vom",
+      "password": "4444",
+      "id": 37
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 38
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 39
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 40
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 41
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 42
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 43
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 44
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 45
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 46
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 47
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 48
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 49
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 50
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 51
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 52
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 53
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 54
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 55
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "4444",
+      "id": 56
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "444462654",
+      "id": 57
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "444462654",
+      "id": 58
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "444462654",
+      "id": 59
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "444462654",
+      "id": 60
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "444462654",
+      "id": 61
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "444462654",
+      "id": 62
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "444462654",
+      "id": 63
+    },
+    {
+      "email": "g676d@ggg.com",
+      "password": "444462654",
+      "id": 64
+    },
+    {
+      "email": "kygyig@gyhkg.nnn",
+      "password": "22564",
+      "id": 65
+    },
+    {
+      "email": "utftutf@vjf.knj",
+      "password": "323",
+      "id": 66
+    },
+    {
+      "email": "kjhkh@jhgjhg.com",
+      "password": "jhgjgj",
+      "id": 67
+    },
+    {
+      "email": "oi@oioi.com",
+      "password": "123",
+      "id": 68
+    },
+    {
+      "email": "ggg@ff.nnb",
+      "password": "jj",
+      "id": 69
     }
   ]
 }

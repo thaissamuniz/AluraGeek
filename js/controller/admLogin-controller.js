@@ -1,4 +1,5 @@
 import { productsList } from "../../service/produtos.js";
+import { login } from "../../service/user.js";
 const loginForm = document.querySelector('.login-section');
 const admEmail = document.querySelector('.email');
 const admPassword = document.querySelector('.password');
@@ -30,6 +31,16 @@ function redirectPage() {
     location.href = 'allProducts.html'
 }
 
+const executaQuandoReceberARespostaComSucesso = body => {
+    localStorage.setItem("user", body)
+    redirectPage();
+}
+
+const executaQuandoReceberARespostaComError = error => {
+    console.error(error);
+    showErrorMessage();
+}
+
 
 loginForm.addEventListener('submit', (event) => {
     event.preventDefault(event)
@@ -38,6 +49,10 @@ loginForm.addEventListener('submit', (event) => {
         showErrorMessage()
         return;
     }
+
     hideErrorMessage()
-    redirectPage()
+
+    login(admEmail.value, admPassword.value)
+        .then(executaQuandoReceberARespostaComSucesso)
+        .catch(executaQuandoReceberARespostaComError);
 })

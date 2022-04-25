@@ -6,34 +6,35 @@ const footerButton = document.querySelector(".footer-button");
 
 const sucessFormInfo = document.querySelector(".sucessInf");
 const errorFormInfo = document.querySelector(".errorInf");
-const formularioGeral = document.querySelector('.formInf');
 
 function limitCaracter(camp, maxCaracter) {
 
     if (camp.value.length >= maxCaracter) {
         camp.value = camp.value.substring(0, maxCaracter)
-        console.log("ultrapassou")
+
         return false;
     } else {
         return true;
     }
 };
 
-function validateForm(name, msg) {
-    if (name.value === "" || name.value === undefined || name.value === null ||
-        msg.value === "" || msg.value === undefined || msg.value === null) {
-        showInfoSMessage(errorFormInfo)
+function validateForm(input) {
+    if (input.value === "" || input.value === undefined || input.value === null) {
+        showInfoMessage(errorFormInfo)
+        hideInfoMessage(sucessFormInfo)
         return false
     }
-
-    inputNameFooter.value = ''
-    textAreaFooter.value = ''
-    showInfoSMessage(sucessFormInfo)
+    hideInfoMessage(errorFormInfo)
+    showInfoMessage(sucessFormInfo)
+    input.value = ''
     return true;
 };
 
-function showInfoSMessage(element) {
+function showInfoMessage(element) {
     element.style.display = "block";
+};
+function hideInfoMessage(element) {
+    element.style.display = "none";
 };
 
 inputNameFooter.addEventListener("keydown", function () {
@@ -46,5 +47,14 @@ textAreaFooter.addEventListener("keydown", function () {
 
 footerButton.addEventListener("click", function (footerForm) {
     footerForm.preventDefault()
-    validateForm(inputNameFooter, textAreaFooter)
+    validateForm(inputNameFooter)
+    validateForm(textAreaFooter)
 });
+
+export const formValidation = {
+    limitCaracter,
+    validateForm,
+    showInfoMessage,
+    hideInfoMessage
+}
+

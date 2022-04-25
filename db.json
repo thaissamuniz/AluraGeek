@@ -143,6 +143,13 @@
       "descricao": "",
       "categoria": "Diversos",
       "id": 18
+    },
+    {
+      "imagem": "C:\\fakepath\\camiseta.jpg",
+      "nome": "jhj",
+      "preco": "R$ 5,00",
+      "descricao": "",
+      "id": 19
     }
   ],
   "login": [
@@ -152,349 +159,24 @@
       "id": 1
     },
     {
-      "email": "g676d@ndnhd.vom",
-      "password": "adaa",
+      "email": "hhh@ddd.vvb",
+      "password": "nnn",
       "id": 2
     },
     {
-      "email": "g676d@ndnhd.vom",
-      "password": "jhjhjg",
+      "email": "ff@d.ccc",
+      "password": "v",
       "id": 3
     },
     {
-      "email": "dasdasda@das.com",
-      "password": "adada",
+      "email": "jjh@hgh.com",
+      "password": "+665",
       "id": 4
     },
     {
-      "email": "ddr@ggg.voi",
-      "password": "525",
+      "email": "gjgjhj@hjhj.ccc",
+      "password": "fg",
       "id": 5
-    },
-    {
-      "email": "ddr@ggg.voi",
-      "password": "525",
-      "id": 6
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 7
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 8
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 9
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 10
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 11
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 12
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 13
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 14
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 15
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 16
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 17
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 18
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 19
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 20
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 21
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 22
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 23
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 24
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 25
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 26
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 27
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 28
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 29
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 30
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 31
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 32
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 33
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 34
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 35
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 36
-    },
-    {
-      "email": "g676d@ndnhd.vom",
-      "password": "4444",
-      "id": 37
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 38
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 39
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 40
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 41
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 42
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 43
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 44
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 45
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 46
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 47
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 48
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 49
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 50
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 51
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 52
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 53
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 54
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 55
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "4444",
-      "id": 56
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "444462654",
-      "id": 57
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "444462654",
-      "id": 58
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "444462654",
-      "id": 59
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "444462654",
-      "id": 60
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "444462654",
-      "id": 61
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "444462654",
-      "id": 62
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "444462654",
-      "id": 63
-    },
-    {
-      "email": "g676d@ggg.com",
-      "password": "444462654",
-      "id": 64
-    },
-    {
-      "email": "kygyig@gyhkg.nnn",
-      "password": "22564",
-      "id": 65
-    },
-    {
-      "email": "utftutf@vjf.knj",
-      "password": "323",
-      "id": 66
-    },
-    {
-      "email": "kjhkh@jhgjhg.com",
-      "password": "jhgjgj",
-      "id": 67
-    },
-    {
-      "email": "oi@oioi.com",
-      "password": "123",
-      "id": 68
-    },
-    {
-      "email": "ggg@ff.nnb",
-      "password": "jj",
-      "id": 69
-    },
-    {
-      "email": "gdugd@gsg.com",
-      "password": "hgud",
-      "id": 70
     }
   ]
 }

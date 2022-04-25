@@ -41,23 +41,31 @@
     </header>
     <section class="add-newProduct container">
         <h2 class="section-title">Adicionar novo produto</h2>
-        <form>
-            <div>
-                <label class="label-file-mob" for="file">adicionar uma imagem para o produto</label>
-                <div class="or">
-                <label class="label-file" for="file">Arraste para adicionar uma imagem para o produto</label>
+        <form class="addProductForm">
+            <div class="or">
+                <label class="label-file" for="file">
+                    <div class="inputImgTitleMob">adicionar uma imagem para o produto</div>
+                    <img id="input-img" src="" />
+                    <div class="inputImgTitle">Arraste para adicionar uma imagem para o produto</div>
+                </label>
                 <input class="" type="file" id="file" accept="image/png, image/jpeg">
                 <p class="file-mobdesk">Ou</p>
-                <label class="label-search-tab" for="tab-upload">Procure no seu tablet</label>
-                <label class="label-search-desk" for="tab-upload">Procure no seu computador</label>
+                <label class="label-search-tab" for="file">Procure no seu tablet</label>
+                <label class="label-search-desk" for="file">Procure no seu computador</label>
                 <input type="file" id="tab-upload">
-                </div>
+                <img id="" src="" alt="">
             </div>
-            <input class="input-product" type="text" maxlength="20" required placeholder="Nome do produto">
-            <input class="input-product" type="number" required placeholder="Preço do produto">
+            <input class="input-product name" type="text" maxlength="20" required placeholder="Nome do produto" />
+            <input class="input-product price" type="text" required placeholder="Preço do produto" />
             <textarea name="description" id="product-descrip" cols="30" rows="10" maxlength="150" required
                 placeholder="Descrição do produto"></textarea>
-            <button class="add-product">Adicionar produto</button>
+            <div class="formInf sucessInf">
+                <p>Dados Enviados com Sucesso!</p>
+            </div>
+            <div class="formInf errorInf">
+                <p>Todos os Campos sao Obrigatorios</p>
+            </div>
+            <button type="submit" class="add-product">Adicionar produto</button>
         </form>
 
     </section>
@@ -99,3 +107,6 @@
         </div>
     </section>
 </body>
+<script type="module" src="./js/addPage.js"></script>
+
+</html>

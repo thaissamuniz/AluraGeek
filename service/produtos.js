@@ -11,9 +11,9 @@ function mountSearchParams(params) {
 const products = (params) => {
     let searchParams = mountSearchParams(params);
     return fetch(PRODUCT_URL + searchParams)
-    .then(response => {
-        return response.json()
-    })
+        .then(response => {
+            return response.json()
+        })
 }
 
 const allProducts = () => {
@@ -21,19 +21,33 @@ const allProducts = () => {
 }
 
 const productsByCategory = (categoria) => {
-    return products({categoria: categoria});
+    return products({ categoria: categoria });
 }
 
 const productDetail = (id) => {
     return fetch(PRODUCT_URL + `/${id}`)
-    .then(response => {
-        return response.json()
-    })
+        .then(response => {
+            return response.json()
+        })
+}
+
+const creatProduct = (formData) => {
+    const requestOption = {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+    };
+
+    return fetch(PRODUCT_URL, requestOption)
+        .then(response => response.body)
 }
 
 export const productsList = {
     allProducts,
     productsByCategory,
     productDetail,
-    
+    creatProduct
+
 }

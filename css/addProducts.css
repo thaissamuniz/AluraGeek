@@ -13,28 +13,47 @@ input[type='file'] {
     display: none;
 }
 
-.label-file-mob {
+.label-file {
     display: block;
     background-color: #FFFFFF;
     width: 100%;
-    height: 134px;
+    height: 100%;
     border: 1px dashed #C8C8C8;
-    padding: 32px;
-    margin-bottom: 16px;
     box-sizing: border-box;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     text-align: center;
+    color: #6B6B6B;
+    padding-top: 40px;
+    position: relative;
+
+}
+
+.inputImgTitleMob {
     background-image: url(../img/mais.jpg);
     background-repeat: no-repeat;
-    color: #6B6B6B;
-    background-position: center;
-    padding-top: 81px;
+    background-position: top center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    display: block;
+}
+#input-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .add-newProduct {
     padding: 16px;
+}
+.or {
+    height: 134px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
 }
 
 .input-product {
@@ -107,7 +126,7 @@ input[type='file'] {
         padding: 32px;
     }
 
-    .label-file-mob {
+    .inputImgTitleMob {
         display: none;
     }
 
@@ -120,16 +139,24 @@ input[type='file'] {
         box-sizing: border-box;
         font-weight: 400;
         font-size: 14px;
-        line-height: 20px;
         text-align: center;
-        background-image: url(../img/img.svg);
-        background-repeat: no-repeat;
         color: #6B6B6B;
-        background-position: center;
         margin-bottom: 16px;
         margin-right: 8px;
-        padding: 32px;
-        padding-top: 94px;
+        
+    }
+    .inputImgTitle {
+        background-image: url(../img/img.svg);
+        background-repeat: no-repeat;
+        background-position: top center;
+        box-sizing: border-box;
+        display: block;
+        padding-top: 52px;
+        line-height: 20px;
+        width: 190px;
+        margin: 0 auto;
+
+
     }
     .or {
         display: flex;
